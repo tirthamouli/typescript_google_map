@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\btirt\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Cmder\bin;C:\Cmder\vendor\bin;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseHg\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Go\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python\Python38\Scripts\;C:\Python\Python38\;C:\Users\btirt\AppData\Local\Microsoft\WindowsApps;C:\Users\btirt\AppData\Roaming\npm;C:\Users\btirt\go\bin;C:\protobuf\bin;C:\Users\btirt\Desktop\Projects\go\bin;C:\Users\btirt\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Program Files\JetBrains\PhpStorm 2018.3.6\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Cmder
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\btirt\Desktop\Projects\typescript\typescript_google_map\package.json: Unexpected token } in JSON at position 846
+      at JSON.parse (<anonymous>)
+      at C:\Users\btirt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\btirt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\btirt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "typescript_google_map",
+    "version": "1.0.0",
+    "description": "A google map typescript app",
+    "main": "index.js",
+    "repository": "https://github.com/Boom0027/typescript_google_map.git",
+    "author": "tirthamoulib <btirthamouli@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "tsc": "tsc",
+      "watch": "tsc --watch",
+      "serve": "webpack-dev-server",
+      "build": "webpack --config webpack.config.prod.js"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^2.26.0",
+      "@typescript-eslint/parser": "^2.26.0",
+      "clean-webpack-plugin": "^3.0.0",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-plugin-import": "^2.20.2",
+      "ts-loader": "^6.2.2",
+      "typescript": "^3.8.3",
+      "webpack": "^4.42.1",
+      "webpack-cli": "^3.3.11",
+      "webpack-dev-server": "^3.10.3"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

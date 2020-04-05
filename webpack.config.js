@@ -1,8 +1,12 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.ts',
+  plugins: [
+    new Dotenv(),
+  ],
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
